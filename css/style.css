@@ -1,0 +1,360 @@
+/* Navbar styles */
+.navbar {
+    background-color: #352f41;
+    overflow: hidden;
+    width: 100%; /* Set navbar width to 100% */
+    padding: 0%; /* Remove default padding */
+    margin: 0%; /* Remove default margin */
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px; /* Adjust padding to make navbar wider */
+    text-decoration: none;
+}
+
+/* Center the navbar links */
+.navbar a {
+    margin: 0; /* Remove margin for the links */
+}
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center; /* Aligns the text to the center */
+}
+
+.navbar a {
+    display: inline-block; /* Display links inline */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: rosybrown;
+}
+
+/* Center the navbar links */
+.navbar a {
+    margin: 0 10px; /* Adjust spacing between links */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration:darkgray;
+}
+.header-container{
+    margin:10px auto 0;
+}
+
+.logo-container {
+    margin: 10px auto 0; /* Adjust margin to position the logo at the top */
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 80%;
+    object-fit: cover;
+    display: block; /* Set display to block */
+}
+
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #862d2d;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.nav-links li a:hover {
+    color: #0d0e10;
+}
+
+
+.company-name {
+    color: white;
+    margin: 10px auto 0; /* Adjust margin to position the company name at the top */
+    margin-bottom: 1cqh;
+}
+
+/* Navigation links styles */
+.nav-links {
+    display: flex;
+}
+
+/* Search bar, sign-in button, and sign-up button styles */
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    scroll-margin-left: 20px; /* Adjust margin to position the buttons */
+}
+
+.search-form {
+    display: flex;
+    margin-left: 10px; /* Adjust margin between search bar and buttons */
+}
+
+.search-form input[type="text"],
+.search-form button {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.signin-button,
+.signup-button {
+    padding: 10px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #141414;
+    color: white;
+    cursor: pointer;
+    align-items: left;
+
+}
+
+
+
+
+.slide-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Add these styles for the previous and next buttons */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 200, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+/* Add these styles for the text overlay */
+.slide {
+    position: relative; /* Ensure the slide is positioned relatively */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+
+.text-overlay h2 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+}
+
+.text-overlay p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+/* Add these animation styles for the text overlay */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.text-overlay {
+    /* Other styles for text-overlay */
+
+     /* Apply the animation  */
+    animation: fadeout 60s ease infinite; /* Adjust timing and other properties as needed */
+    animation: fadein  5s  ease infinite  /* Adjust timing and other properties as needed */
+}
+
+
+.text-overlay h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    color: white (239, 235, 230, 0.443); /* Change the color as desired */
+    font-weight:large; /* Make the text bold */
+}
+
+.text-overlay p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; ;
+    margin: 0;
+    color: rgb(255, 255, 255); /* Change the color as desired */
+    font-weight: bold; /* Make the text bold */
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #fcf9ff;
+    color: #060303;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links a {
+    color: #181616;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #840000;
+}
+
+/* Styling for social media icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #a70606;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #45355b; /* Set background color */
+    color: #ffffff; /* Set default text color */
+}
+body {
+    text-align: center; /* Center-align text within the body */
+    font-family: Arial, sans-serif; /* Specify the font family */
+    /* Additional styles for the body */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a common font */
+    line-height: 1.5; /* Adjust line height for readability */
+    text-align: justify; /* Justify text for uniform appearance */
+}
+
+p {
+    margin-bottom: 15px; /* Add margin between paragraphs */
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Set initial background image */
+    background-image: url('images/back.jpg');
+}
+
+
+
+
